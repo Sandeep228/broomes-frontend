@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Broomees - airline</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <ul class="ul">
+            <a href="#" class="active">
+                <li>
+                    Sign-up
+                </li>
+            </a>
+            <a href="./user.html">
+                <li>Users</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="mainDiv">
+            <div class="leftSection">
+                <img src="plane.jpg" alt="LeftImage-airline" height="750px">
+                <div class="leftContent">
+                    <h2 class="h1Text">Altitude Air</h2>
+                    <hr>
+                    <p style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, dolor reprehenderit vitae
+                        provident tempora? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, dolor reprehenderit vitae
+                        provident tempora?
+                    </p>
+                </div>
+            </div>
+            <div class="rightSection">
+                <a href="" class="goToSignInBtn">Sign In</a>
+                <div class="rightContent">
+                    <h1 style="margin-bottom:12px">Explore & Experience.</h1>
+                    <p>Get onto your most comfortable journey yet. All the way up.</p>
+                </div>
+                <div class="formDiv">
+                    <form class="customForm" id="SignUpFormData">
+                        <div class="name">
+                            <div class="nameFields">
+                                <div class="firstName">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" placeholder="First Name">
+                                    <div class="error" id="errorFirstName"></div>
+                                    
+                                </div>
+                                <div class="lastName">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" placeholder="Last Name">
+                                    <div class="error" id="errorlastName"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" id="inputEmail" placeholder="Email">
+                            <div class="error" id="errorinputEmail"></div>
+
+                        </div>
+                        <div class="username">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" placeholder="Username">
+                            <div class="error" id="errorusername"></div>
+
+                        </div>
+                        <div class="password">
+                            <label for="inputPassword">Password</label>
+                            <input type="password" id="inputPassword" placeholder="Password">
+                            <div class="error" id="errorinputPassword"></div>
+
+                        </div>
+                        <div class="confirmPassword">
+                            <label for="cPassword">Confirm Password</label>
+                            <input type="password" id="cPassword" placeholder="Confirm Password">
+                            <div class="error" id="errorcPassword"></div>
+
+                        </div>
+                        <button type="button" id="getStartedButton" class="getStartedButton" title="signUp">Get
+                            Started</button>
+                        <div class="error" id="error">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script  defer src="script.js"></script>
+</body>
+
+</html>
